@@ -25,3 +25,27 @@ Stacktrace:
 WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8c2e2b467bed76149e7977cd95923014
 WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002994491BA00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8c2e2b467bed76149e7977cd95923014
 WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002994491BCA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8c2e2b467bed76149e7977cd95923014
+ERROR:root:Error during scraping: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.130)
+Stacktrace:
+	GetHandleVerifier [0x00007FF630242142+3514994]
+	(No symbol) [0x00007FF62FE60CE2]
+	(No symbol) [0x00007FF62FD076AA]
+	(No symbol) [0x00007FF62FCE0AFD]
+	(No symbol) [0x00007FF62FD7CB1B]
+	(No symbol) [0x00007FF62FD9218F]
+	(No symbol) [0x00007FF62FD75D93]
+	(No symbol) [0x00007FF62FD44BDC]
+	(No symbol) [0x00007FF62FD45C64]
+	GetHandleVerifier [0x00007FF63026E16B+3695259]
+	GetHandleVerifier [0x00007FF6302C6737+4057191]
+	GetHandleVerifier [0x00007FF6302BE4E3+4023827]
+	GetHandleVerifier [0x00007FF62FF904F9+689705]
+	(No symbol) [0x00007FF62FE6C048]
+	(No symbol) [0x00007FF62FE68044]
+	(No symbol) [0x00007FF62FE681C9]
+	(No symbol) [0x00007FF62FE588C4]
+	BaseThreadInitThunk [0x00007FFD2CB4C7E7+23]
+	RtlUserThreadStart [0x00007FFD2D26C7C0+32]
+
